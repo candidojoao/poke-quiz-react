@@ -1,0 +1,36 @@
+.PokeballImg {
+    width: var(--sizes-cemPexis) !important;
+}
+
+.HeaderText {
+    margin-bottom: var(--sizes-dezPexis);
+}
+
+.CorrectGuesses {
+    margin-top: var(--sizes--vintePexis);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sizes-dezPexis);
+    justify-content: center;
+}
+
+.victoryMessage {
+    background-color: #fff;
+    padding: var(--sizes-vintePexis);
+    border-radius: var(--sizes-dezPexis);
+    border: 3px solid #4CAF50;
+    text-align: center;
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

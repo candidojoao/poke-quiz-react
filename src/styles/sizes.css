@@ -1,0 +1,22 @@
+:root {
+    --sizes-dezPexis: 10px;
+    --sizes-vintePexis: 20px;
+    --sizes-trintaPexis: 30px;
+    --sizes-quarentaPexis: 40px;
+    --sizes-cinquentaPexis: 50px;
+    --sizes-sessentaPexis: 60px;
+    --sizes-setentaPexis: 70px;
+    --sizes-oitentaPexis: 80px;
+    --sizes-noventaPexis: 90px;
+    --sizes-cemPexis: 100px;
+
+    --sizes-duzentosPexis: 200px;
+    --sizes-trezentosPexis: 300px;
+    --sizes-quatrocentosPexis: 400px;
+    --sizes-quinhentosPexis: 500px;
+    --sizes-seiscentosPexis: 600px;
+    --sizes-setecentosPexis: 700px;
+    --sizes-oitocentosPexis: 800px;
+    --sizes-novecentosPexis: 900px;
+    --sizes-milPexis: 1000px;
+}
